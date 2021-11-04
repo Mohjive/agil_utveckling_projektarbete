@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Startsida</a>
+            <a class="nav-link" href="index.html">Startsida</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Klienttekniker.html">Klienttekniker</a>
@@ -32,7 +32,7 @@
             <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="internet.html">Internet</a>
+            <a class="nav-link active" aria-current="page" href="internet.html">Internet</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
@@ -49,55 +49,56 @@
   </nav>
 
   <main>
-
     <div class="container">
-      
       <div class="flex">
-        
-        <img src="selfie.jpg" alt="profilbild" id="profilbild">
         <div class="text">
-          <h2>Presentation</h2>
           <p>
-            Jag heter Tine och är, i skrivade stund, förstaårselev på systemutvecklare
-            .net-programmet på TUC yrkeshögskola i Linköping. Som tredje kurs under utbildningen
-            läste vi "Agila utvecklingsmetoder och html" och fick lära oss om hur ett
-            utvecklarteam lägger upp sitt arbete, hur hemsidor görs tillgängliga för alla och grunder
-            i html, css och javascript. Som projektarbete skulle vi skapa en flersidig hemsida som
-            presenterar vad vi lärt oss i kursen. Välkommen att kika runt på min sida.
+          <h2 id="klient">klient-server-modellen</h2>
+          Klienten är den som begär information och servern som tillhandahåller den. Exempel på klient
+          kan vara webbläsare och mailklienter. Och servern är programmet vars innehåll klienten ber om.
+          </p>
+
+        </div>
+        <div class="text">
+          <p>
+          <h2 id="internetkommunikation">internetkommunikation</h2>
+          Vad ska det egentligen stå här?
           </p>
         </div>
         <div class="text">
-
-          
-          <h2>Innehållsförteckning</h2><p>
-          a) <a href="index.html">Hem</a><br>
-          b) <a href="klienttekniker.html">Klienttekniker</a><br>
-          <a href="klienttekniker.html#html">HTML</a><br>
-          <a href="klienttekniker.html#css">CSS</a><br>
-          <a href="klienttekniker.html#javaskript">JavaScript</a><br>
-          c) <a href="projektmetodik.html">Projektmetodik</a><br>
-          <a href="projektmetodik.html#vattenfall">Vattenfallsmetodik</a><br>
-          <a href="projektmetodik.html#agil">Agil utveckling</a> <br>
-          <a href="projektmetodik.html#scrum">Hur man arbetar i Scrum.</a> <br>
-          d) <a href="internet.html">Internet</a><br>
-          <a href="internet.html#klient">Klient-server-modellen</a><br>
-          <a href="internet.html#internetkommunikation">Internetkommunikation</a><br>
-          <a href="internet.html#protokoll">Protokoll</a><br>
-          <a href="internet.html#http">http / https</a> <br>
-          <a href="internet.html#ftp">ftp / ftps</a> <br>
-          e) <a href="tillgänglighet.html">Tillgänglighet</a><br>
-          <a href="tillgänglighet.html#wcag">WCAG</a><br>
-          d) <a href="analys.html">Analys</a><br>
-          g) <a href="kontakt.html">Kontakt</a><br>
-          <a href="kontakt.html#kontaktuppgifter">Kontaktuppgifter</a><br>
-          <a href="kontakt.html#formulär">Kontaktformulär</a>
+          <p>
+          <h2 id="protokoll">protokoll</h2>
+          Protokoll syftar på det regelverk som används för att skapa ett gemensamt språk mellan
+          datorer. Det går att likna med traditionell post. IP (internet protocol) standardiserar
+          adress och TCP (Transmission Control Protocol) själva frakten.<br><br>
+          När data skickas från en dator till en annan skickas den uppdelad. De delarna skickas inte
+          gemensamt utan använder de just nu lediga vägarna för att komma fram till mottagaren.
+          Skulle någon av delarna inte komma fram till mottagande dator kan mottagaren be om att få
+          just den enskilda delen skickad på nytt istället för att hela datan ska ta upp plats
+          både under färden och också under återskickandet.
 
           </p>
+
         </div>
+        <div class="text">
+          <p>
+          <h2 id="http">http/https</h2>
+
+          Hyper text transfer protocol är det protokoll som används vid kommunikation av webbsidor
+          mellan webbläsare och servrar. Bokstaven s i https står för secure. Det innebär att det
+          är krypterat.
+          </p>
+        </div>
+        <div class="text">
+          <p>
+          <h2 id="ftp">ftp/ftps</h2>
+          File transfer protocol är protokollet för filöverföring. Även här står bokstaven s för
+          secure och innebär krypterat.
+          </p>
+        </div>
+
       </div>
     </div>
-
-
   </main>
 
   <div class="container">

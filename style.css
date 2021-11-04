@@ -1,10 +1,8 @@
-:root {
-  --profile-width: 150px;
-}
-
 #profilbild {
-  width: var(--profile-width);
-  height: auto;
+  width: 150px;
+  height: 225px;
+  margin: 20px;
+  margin-top: 60px;
 }
 
 .clear-float::after {
@@ -18,8 +16,13 @@
   flex-wrap: wrap;
 }
 
-.limit-text {
-  min-width: calc(90% - var(--profile-width));
+.presentation {
+  max-width: calc(90% - var(--profile-width));
+  min-width: 150px;
+}
+
+.text {
+  max-width: 400px;
   min-width: 150px;
   margin: 10px;
 }
