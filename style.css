@@ -1,8 +1,18 @@
+
+
 #profilbild {
   width: 150px;
   height: 225px;
   margin: 20px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 1225px;
 }
 
 .clear-float::after {
@@ -14,6 +24,7 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .presentation {
@@ -22,7 +33,7 @@
 }
 
 .text {
-  max-width: 400px;
+  max-width: 500px;
   min-width: 150px;
   margin: 10px;
 }
