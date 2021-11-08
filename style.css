@@ -1,4 +1,12 @@
+.skip-to-main {
+  position: absolute;
+  left: -1000;
+}
 
+.skip-to-main:focus {
+  left: 15;
+  background-color: blue;
+}
 
 #profilbild {
   width: 150px;
