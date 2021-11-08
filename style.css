@@ -1,10 +1,10 @@
 .skip-to-main {
   position: absolute;
-  left: -1000;
+  left: -1000px;
 }
 
 .skip-to-main:focus {
-  left: 15;
+  left: 15px;
   background-color: blue;
 }
 
