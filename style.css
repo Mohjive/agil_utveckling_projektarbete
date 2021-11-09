@@ -1,11 +1,21 @@
+
+.aktiv{
+  border: solid 5px black;
+  font-weight: bold;
+}
+
+
+
 .skip-to-main {
   position: absolute;
   left: -1000px;
 }
 
 .skip-to-main:focus {
+  padding: 5px;
   left: 15px;
   background-color: blue;
+  color: white;
 }
 
 #profilbild {
@@ -18,6 +28,8 @@
 h1 {
   text-align: center;
 }
+
+
 
 .container {
   max-width: 1225px;

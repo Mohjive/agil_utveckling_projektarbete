@@ -15,6 +15,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!--Mitt egna stylesheet-->
   <link rel="stylesheet" href="style.css">
+  <!--stylesheet index-->
+  <link rel="stylesheet" href="index.style.css">
 
 </head>
 
@@ -23,8 +25,8 @@
     <h1>Agila arbetsmetoder och html - ett projektarbete</h1>
   </header>
 
+    <div class="container center">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
       <a class="skip-to-main" href="index.html#maincontent">Hoppa till huvudinnehåll</a>
       <a class="navbar-brand" href="#">Projekt</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -34,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Startsida</a>
+            <a class="nav-link aktiv" aria-current="page" href="index.html">Startsida</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Klienttekniker.html">Klienttekniker</a>
@@ -80,33 +82,47 @@
 
 
           <h2>Innehållsförteckning</h2>
-          <p>
-            a) <a href="index.html">Hem</a><br>
-            b) <a href="klienttekniker.html">Klienttekniker</a><br>
-            <a href="klienttekniker.html#html">HTML</a><br>
-            <a href="klienttekniker.html#css">CSS</a><br>
-            <a href="klienttekniker.html#javaskript">JavaScript</a><br>
-            c) <a href="projektmetodik.html">Projektmetodik</a><br>
-            <a href="projektmetodik.html#vattenfall">Vattenfallsmetodik</a><br>
-            <a href="projektmetodik.html#agil">Agil utveckling</a> <br>
-            <a href="projektmetodik.html#scrum">Hur man arbetar i Scrum.</a> <br>
-            d) <a href="internet.html">Internet</a><br>
-            <a href="internet.html#klient">Klient-server-modellen</a><br>
-            <a href="internet.html#internetkommunikation">Internetkommunikation</a><br>
-            <a href="internet.html#protokoll">Protokoll</a><br>
-            <a href="internet.html#http">http / https</a> <br>
-            <a href="internet.html#ftp">ftp / ftps</a> <br>
-            e) <a href="tillgänglighet.html">Tillgänglighet</a><br>
-            <a href="tillgänglighet.html#wcag">WCAG</a><br>
-            d) <a href="analys.html">Analys</a><br>
-            g) <a href="kontakt.html">Kontakt</a><br>
-            <a href="kontakt.html#kontaktuppgifter">Kontaktuppgifter</a><br>
-            <a href="kontakt.html#formulär">Kontaktformulär</a>
 
-          </p>
+          <div class="toc">
+            <ul>
+              <li><a href="index.html">Hem</a></li>
+              <li><a href="klienttekniker.html">Klienttekniker</a>
+              <ul>
+                <li><a href="klienttekniker.html#css">CSS</a></li>
+                <li><a href="klienttekniker.html#javaskript">JavaScript</a></li>
+              </ul></li>
+              <li><a href="projektmetodik.html">Projektmetodik</a>
+              <ul>
+                <li><a href="projektmetodik.html#vattenfall">Vattenfallsmetodik</a></li>
+                <li><a href="projektmetodik.html#agil">Agil utveckling</a></li>
+                <li><a href="projektmetodik.html#scrum">Hur man arbetar i Scrum</a></li>
+              </ul></li>
+              <li><a href="internet.html">Internet</a>
+              <ul>
+                <li><a href="internet.html#klient">Klient-server-modellen</a></li>
+                <li><a href="internet.html#internetkommunikation">Internetkommunikation</a></li>
+                <li><a href="internet.html#protokoll">Protokoll</a></li>
+                <li><a href="internet.html#http">http / https</a></li>
+                <li><a href="internet.html#ftp">ftp / ftps</a></li>
+              </ul></li>
+              <li><a href="tillgänglighet.html">Tillgänglighet</a>
+              <ul>
+                <li><a href="tillgänglighet.html#wcag">WCAG</a></li>
+              </ul></li>
+              <li><a href="analys.html">Analys</a></li>
+              <li><a href="kontakt.html">Kontakt</a>
+              <ul>
+                <li><a href="kontakt.html#kontaktuppgifter">Kontaktuppgifter</a></li>
+                <li><a href="kontakt.html#formulär">Kontaktformulär</a></li>
+              </ul></li>
+            </ul>
+            </ul>
+
+
+
+          </div>
         </div>
       </div>
-    </div>
 
 
   </main>
