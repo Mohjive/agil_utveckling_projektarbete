@@ -1,11 +1,13 @@
 
 .aktiv{
-  border: solid 5px black;
+  background-color: white;
+  border-radius: 8px;
+  border-top: solid 2px black;
+  border-left: solid 2px black;
   font-weight: bold;
+  padding: 5px;
+  margin-bottom: 0;
 }
-
-
-
 .skip-to-main {
   position: absolute;
   left: -1000px;
@@ -18,27 +20,12 @@
   color: white;
 }
 
-#profilbild {
-  width: 150px;
-  height: 225px;
-  margin: 20px;
-  /* margin-top: 60px; */
-}
-
 h1 {
   text-align: center;
 }
 
-
-
 .container {
   max-width: 1225px;
-}
-
-.clear-float::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .flex {
@@ -47,22 +34,8 @@ h1 {
   justify-content: space-evenly;
 }
 
-.presentation {
-  max-width: calc(90% - var(--profile-width));
-  min-width: 150px;
-}
-
 .text {
   max-width: 500px;
   min-width: 150px;
   margin: 10px;
 }
-
-/* @media (max-width: 300px) {
-  #profilbild {
-    width: 80%;
-    height: auto;
-    float: none;
-    display: block;
-  }
-} */

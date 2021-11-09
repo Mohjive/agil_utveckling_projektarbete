@@ -9,10 +9,12 @@ form label {
   padding: 5px;
 }
 
-form input {
-  width: 90%;
+a {
+  color: purple;
 }
 
-form textarea {
-  width: 100%;
+a:hover {
+  border: solid purple 2px;
+  color: purple;
+  padding: 2px;
 }

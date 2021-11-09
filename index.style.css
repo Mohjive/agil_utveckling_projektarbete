@@ -3,18 +3,18 @@
 }
 .toc ul {
   padding-left: 0px;
+  font-weight: bold;
 }
 .toc ul ul {
   padding-left: 1em;
+  font-weight: normal;
 }
 .toc li a {
   color: purple;
   padding: 2px 5px;
 }
-.toc ul ul li a {
-  color: ;
-}
+
 .toc li a:hover {
-  background-color: lightgrey;
-  color: darkslategrey;
+  border: solid black 2px;
+  color: black;
 }
