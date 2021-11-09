@@ -1,4 +1,6 @@
-
+h1 {
+  padding-left: 15px;
+}
 .aktiv{
   background-color: white;
   border-radius: 8px;
@@ -20,9 +22,7 @@
   color: white;
 }
 
-h1 {
-  text-align: center;
-}
+
 
 .container {
   max-width: 1225px;
