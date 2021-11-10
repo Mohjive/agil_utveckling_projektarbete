@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
-  padding-left: 15px;
+  text-align: center;
 }
 .aktiv{
   background-color: white;
@@ -8,7 +12,13 @@ h1 {
   border-left: solid 2px black;
   font-weight: bold;
   padding: 5px;
-  margin-bottom: 0;
+}
+
+a:hover {
+  border-radius: 8px;
+  border: solid purple 2px;
+  color: purple;
+  padding: 5px;
 }
 .skip-to-main {
   position: absolute;
@@ -22,20 +32,61 @@ h1 {
   color: white;
 }
 
-
-
-.container {
-  max-width: 1225px;
+ .container {
+  padding: 20px, 5px;
 }
 
 .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .text {
-  max-width: 500px;
-  min-width: 150px;
-  margin: 10px;
+  margin: 20px 0;
 }
+
+@media only screen and (max-width: 0px) {
+    .text {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 750px){
+  .text {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .text.many{
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 771px){
+  .text.many {
+    width: 44%;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .text.many {
+    width: 28%;
+  }
+}
+
+.text.box {
+  width: 100%;
+}
+
+.text.fill {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+iframe {
+  margin: 20px;
+}
+
+

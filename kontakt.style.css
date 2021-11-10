@@ -1,7 +1,6 @@
 form {
   padding: 15px;
   border-radius: 20px;
-  border: 1px solid black;
 }
 
 form label {
@@ -11,10 +10,4 @@ form label {
 
 a {
   color: purple;
-}
-
-a:hover {
-  border: solid purple 2px;
-  color: purple;
-  padding: 2px;
 }
