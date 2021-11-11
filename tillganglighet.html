@@ -9,10 +9,10 @@
     content="Tillgänglighet inom webbdesign. För att alla användare ska få full tillgång till information online">
   <meta name="author" content="Tine Steén">
   <title>Tillgänglighet - Agila utvecklingsmetoder och html</title>
-  <!-- CSS only -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!--Mitt egna stylesheet-->
+  
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,7 +23,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="skip-to-main" href="tillganglighet.html#maincontent">Hoppa till huvudinnehåll</a>
+      <a class="skip" href="tillganglighet.html#maincontent">Hoppa till huvudinnehåll</a>
       <a class="navbar-brand" href="#">Logga</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,25 +59,37 @@
 
   <main id="maincontent">
     <div class="container">
-      <div class="flex">
-        <div class="text fill">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
           <h2 id="wcag">WCAG</h2>
           <p>
             Web Content Accessibility Guidelines är riktlinjer för hur webbplatser tillgänglighetsanpassas för att
             säkerställa att alla (eller så nära alla som möjligt) ska få ta del av hela webbplasten.
           </p>
           <p>
-            Videoklippet som ligger här intill (eller det på sidan om projektmetodik) är som exempel inte alls anpassat för att vara tillgängligt. Videon innehåller länkar på olika ställen på skärmen, som när man tabbar sig mellan dem, kan vara svåra att förstå vad de gör om man t ex saknar syn. Många användare använder så kallade skärmläsare som läser upp innehållet. Det finns ju dock inte några hundraprocentiga sätt att "läsa upp" en bild eller ännu värre; en video, långt ifrån faktiskt. Det innebär att om utvecklaren inte tar hänsyn till detta och lägger till information som skärmläsare kan läsa upp så går användaren miste om innehåll.
+            Videoklippet som ligger här intill (eller det på sidan om projektmetodik) är som exempel inte alls anpassat
+            för att vara tillgängligt. Videon innehåller länkar på olika ställen på skärmen, som när man tabbar sig
+            mellan dem, kan vara svåra att förstå vad de gör om man t ex saknar syn. Många användare använder så kallade
+            skärmläsare som läser upp innehållet. Det finns ju dock inte några hundraprocentiga sätt att "läsa upp" en
+            bild eller ännu värre; en video, långt ifrån faktiskt. Det innebär att om utvecklaren inte tar hänsyn till
+            detta och lägger till information som skärmläsare kan läsa upp så går användaren miste om innehåll.
 
-            När du är på den här hemsidan kan du använda dig av tabbtangenten för att hoppa mellan länkar på sidan. Den första länken som dyker upp om du tabbar är en så kallad skip-to-main-länk. Den är inte synlig för ögat innan den aktiveras då den kodats att ligga utanför bild fram till dess att användaren tabbar till den.
-            
+            När du är på den här hemsidan kan du använda dig av tabbtangenten för att hoppa mellan länkar på sidan. Den
+            första länken som dyker upp om du tabbar är en så kallad skip-to-main-länk. Den är inte synlig för ögat
+            innan den aktiveras då den kodats att ligga utanför bild fram till dess att användaren tabbar till den.
+
           </p>
 
         </div>
-        <div class="text"><iframe width="560" height="315" src="https://www.youtube.com/embed/-ao_Kc_8rpE"
-            title="YouTube video på engelska. Tillganglighet" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/-ao_Kc_8rpE" title="YouTube video på engelska. Tillganglighet"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -89,8 +101,10 @@
       </div>
     </footer>
   </div>
-  <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
